@@ -1,5 +1,5 @@
 from typing import List, Optional
-from TreeNode import TreeNode
+from Easy.TreeNode import TreeNode
 
 class BinaryTreePreorderTravesal:
     def preorderTraversal(self, root:Optional[TreeNode]) -> List[int]:
