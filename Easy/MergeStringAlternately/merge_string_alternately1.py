@@ -1,5 +1,5 @@
 class merge_string_alternately1:
-    def merge(self, word1: str, word2: str):
+    def merge(self, word1: str, word2: str) -> str:
 
         max_length = max(len(word1),len(word2))
         res = []
