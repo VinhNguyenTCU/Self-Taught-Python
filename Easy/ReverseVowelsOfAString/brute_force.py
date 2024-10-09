@@ -1,5 +1,5 @@
 class brute_force:
-    def reverseVowels(self, s: str) -> str:
+    def reverseVowels(s: str) -> str:
         vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
         ans, rev = [], []
         index, pointer = 0, 0
@@ -10,6 +10,7 @@ class brute_force:
                 index += 1
         
         rev.reverse()
+        print(vowels)
 
         for i in range(len(s)):
             if s[i] in vowels:
@@ -18,4 +19,3 @@ class brute_force:
             else: ans.append(s[i])
 
         return ''.join(ans)
-        
