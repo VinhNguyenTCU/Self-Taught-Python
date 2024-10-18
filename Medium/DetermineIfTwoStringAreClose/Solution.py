@@ -11,7 +11,9 @@ class Solution:
         map1 = Counter(word1)
         map2 = Counter(word2)
 
-        map3 = {}
-
-
         return set1 == set2 and sorted(map1.values()) == sorted(map2.values())
+    
+## Time Complexity: O(N).
+## The overall time complexity is dominated by the creation of the sets and counters, which is O(n).
+## Sorting the values is constant O(1) due to the limited number of characters (26).
+## Space Complexity: O(1) since they are bounded by the constant size of the alphabet.
