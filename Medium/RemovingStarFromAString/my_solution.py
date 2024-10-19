@@ -16,3 +16,6 @@ class my_solution:
                 stack2.pop()
             
         return ''.join(stack2)
+    
+    #Time Complexity: O(N) + O(N) = O(2N) = O(N) where N is the length of given string
+    #Space Complexity: O(N  )
