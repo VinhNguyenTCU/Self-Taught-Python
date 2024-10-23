@@ -11,7 +11,7 @@ class BinaryTreePreorderTravesal:
         while stack:
             root = stack.pop()
             if root is not None:
-                ans.append(root)
+                ans.append(root.val)
                 if root.right is not None:
                     stack.append(root.right)
                 if root.left is not None:
