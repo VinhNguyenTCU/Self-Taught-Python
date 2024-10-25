@@ -10,3 +10,6 @@ class RecursiveDFS:
         rightMax = 1 + self.maxDepth(root.right)
 
         return max(leftMax, rightMax)
+    
+# Time Complexity: O(N)
+# Space Complexity: O(1)
